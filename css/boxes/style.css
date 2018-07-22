@@ -1,0 +1,51 @@
+
+button {
+  width: 150px;
+  font-size: 1.1rem;
+  line-height: 2;
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(to bottom right, #777, #ddd);
+  box-shadow: 1px 1px 1px black,
+              inset 2px 3px 5px rgba(0,0,0,0.3),
+              inset -2px -3px 5px rgba(0,255,255,0.5);
+}
+
+button:focus, button:hover {
+  background-image: linear-gradient(to bottom right, #888, #eee);
+}
+
+button:active {
+  box-shadow: inset 2px 2px 1px black,
+              inset 2px 3px 5px rgba(0,0,0,0.3),
+              inset -2px -3px 5px rgba(0,255,255,0.5);
+}
+p {
+  margin: 1rem auto;
+  padding: 20px;
+  width: 100px;
+  border: 5px dashed red;
+}
+
+.filter {
+  -webkit-filter: drop-shadow(5px 5px 1px rgba(0,0,0,0.7));
+  filter: drop-shadow(5px 5px 1px rgba(0,0,0,0.7));
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 1px rgba(0,0,0,0.7);
+}
+
+div {
+  width: 250px;
+  height: 130px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  background: url(https://mdn.mozillademos.org/files/13090/colorful-heart.png) no-repeat center 20px;
+  background-color: green;
+}
+
+.multiply {
+  background-blend-mode: multiply;
+}
