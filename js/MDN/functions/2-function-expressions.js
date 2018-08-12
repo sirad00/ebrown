@@ -25,4 +25,4 @@ console.log(cube);
 //   myFunc = function(theObject) {
 //     theObject.make = 'Toyota';
 //   }
-// }
+// }s

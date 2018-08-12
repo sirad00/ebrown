@@ -3,7 +3,31 @@ function addPrefix(prefix, ...words) {
     for (let i = 0; i < words.length; i++) {
         prefixedWords[i] = prefix + words[i];
     }
-    console.log(addPrefix("con", "verse", "vex"));
+
     return prefixedWords;
+    
 }
-addPrefix(prefix, ...words);
+
+var rez = addPrefix("con", "1", "2", "3", "4");
+console.log(rez);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log(addPrefix("con", "verse", "vex"));

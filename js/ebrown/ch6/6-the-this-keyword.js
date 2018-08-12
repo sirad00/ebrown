@@ -1,16 +1,16 @@
 // const o = {
-//     name: 'Wallace',
+//     name: 'Darinuta',
 //     speak() { 
 //         return `My name is ${this.name}!`; },
 // }
-// o.speak();
-// console.log(o.speak());
+// var rez = o.speak();
+// console.log(rez);
 
 
 // const speak = o.speak;
 // speak === o.speak;
 // speak();
-// console.log(speak());
+// console.log(speak("Daris"));
 
 const o = {
     name: 'Julie',
@@ -18,13 +18,13 @@ const o = {
         const self = this;
         function getReverseName() {
             let nameBackwards = '';
-            for (let i = self.name.length - 1; i >= 0; i--) {
+            for (let i = self.name.length-1; i >= 0; i--) {
                 nameBackwards += self.name[i];
             }
             return nameBackwards;
         }
         return `${getReverseName()} si eman ym ,olleH`;
-    },
+    }
 };
-o.greetBackwards();
+// o.greetBackwards();
 console.log(o.greetBackwards());
