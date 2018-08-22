@@ -1,4 +1,4 @@
 # misc-all
 mozilla, brown ...
 
-Work through web-dev from MDN, Learning Javascript (EBrown)
+Working through web-dev from MDN, Learning Javascript (EBrown)
